@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #0d0d0d;
+  --color-surface-card: #141414;
+  --color-fg-muted: #a1a1aa;
+  --color-action: #f59e0b;
+  --color-action-fg: #0a0a0a;
+  --radius-card: 0.75rem;
+  --radius-featured: 1.75rem;
+  --font-sans: 'Rubik', system-ui, sans-serif;
+  --font-display: 'Rubik', system-ui, sans-serif;
+}
+
+:root {
+  --surface: #0d0d0d;
+  --surface-card: #141414;
+  --fg-muted: #a1a1aa;
+  --action: #f59e0b;
+  --action-fg: #0a0a0a;
+  --radius-card: 0.75rem;
+  --radius-featured: 1.75rem;
+}
+
+body {
+  background-color: #0a0a0a;
+  color: #f4f4f5;
+  font-family: var(--font-sans);
+}
+
+/* Utility classes */
+.text-2xs {
+  font-size: 0.65rem;
+  line-height: 0.85rem;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0d0d;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
