@@ -11,10 +11,10 @@
 
   <div class="bg-[#141414] border border-white/10 rounded-2xl p-6 space-y-4 text-sm leading-relaxed shadow-xl">
     <p>
-      AniKage does not host or store any media files on its servers. All content and streams provided on this platform are hosted on non-affiliated third-party websites.
+      YoruKage does not host or store any media files on its servers. All content and streams provided on this platform are hosted on non-affiliated third-party websites.
     </p>
     <p>
-      AniKage operates as an index and database of media available publicly on the internet. If you believe your copyrighted material is listed on our site without authorization, please submit a formal DMCA takedown notice to our contact team at <span class="text-amber-400 font-mono font-bold">dmca@anikage.cc</span>.
+      YoruKage operates as an index and database of media available publicly on the internet. If you believe your copyrighted material is listed on our site without authorization, please submit a formal DMCA takedown notice to our contact team at <span class="text-amber-400 font-mono font-bold">dmca@yorukage.cc</span>.
     </p>
     <p class="text-xs text-zinc-500 pt-2">
       Please allow up to 48 business hours for takedown request processing.

@@ -42,7 +42,7 @@
         </span>
       </div>
       <p class="text-xs text-zinc-400 font-mono">
-        Watching anime on AniKage • {userStore.favorites.length} Favorites • {userStore.continueWatching.length} Watched
+        Watching anime on YoruKage • {userStore.favorites.length} Favorites • {userStore.continueWatching.length} Watched
       </p>
     </div>
   </div>

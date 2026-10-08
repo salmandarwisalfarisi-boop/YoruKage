@@ -17,7 +17,7 @@
 </script>
 
 <svelte:head>
-  <title>AniKage — Watch Anime Online Free & High Quality</title>
+  <title>YoruKage — Watch Anime Online Free & High Quality</title>
 </svelte:head>
 
 <div class="relative min-h-screen bg-[#0a0a0a] text-zinc-100 flex flex-col antialiased">

@@ -9,14 +9,14 @@
     <div class="space-y-3 md:col-span-2">
       <a href="/" class="flex items-center gap-2">
         <div class="h-7 w-7 rounded-full bg-amber-500 flex items-center justify-center font-bold text-black text-sm">
-          AK
+          YK
         </div>
         <span class="font-extrabold text-xl tracking-tight text-white">
-          Ani<span class="text-amber-500">Kage</span>
+          Yoru<span class="text-amber-500">Kage</span>
         </span>
       </a>
       <p class="text-xs text-zinc-500 max-w-sm leading-relaxed">
-        AniKage does not store any files on our server. All contents are provided by non-affiliated third parties. Experience high-speed ad-free anime streaming.
+        YoruKage does not store any files on our server. All contents are provided by non-affiliated third parties. Experience high-speed ad-free anime streaming.
       </p>
       <div class="pt-2 flex items-center gap-3">
         <a
@@ -65,7 +65,7 @@
   </div>
 
   <div class="max-w-7xl mx-auto px-6 mt-8 pt-6 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between text-2xs text-zinc-500">
-    <span>© 2026 AniKage. Built with SvelteKit & AniList API.</span>
+    <span>© 2026 YoruKage. Built with SvelteKit & AniList API.</span>
     <span class="mt-2 sm:mt-0">Made by discord.gg/nullstate</span>
   </div>
 </footer>

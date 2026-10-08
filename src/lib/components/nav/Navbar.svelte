@@ -24,10 +24,10 @@
   <div class="pointer-events-auto flex items-center gap-1.5 rounded-full border border-white/10 bg-[#0d0d0d]/75 p-1.5 backdrop-blur-xl shadow-2xl shadow-black/80">
     <a href="/" class="flex items-center gap-2 pl-3 pr-4 group">
       <div class="h-7 w-7 rounded-full bg-amber-500 flex items-center justify-center font-bold text-black text-sm tracking-tighter group-hover:scale-105 transition-transform">
-        AK
+        YK
       </div>
       <span class="font-extrabold text-lg tracking-tight text-white flex items-center gap-0.5">
-        Ani<span class="text-amber-500">Kage</span>
+        Yoru<span class="text-amber-500">Kage</span>
       </span>
     </a>
 
