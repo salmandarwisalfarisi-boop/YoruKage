@@ -146,7 +146,7 @@ export async function extractKwikStream(kwikUrl: string): Promise<KwikStreamResu
     }
   }
 
-  if (!bestResult?.streamInfo.streamUrl) {
+  if (!bestResult || !bestResult.streamInfo.streamUrl) {
     throw new Error(
       `Stream URL tidak ditemukan. Teknik yang dicoba: ${bestResult?.techniques.join(', ') || 'none'}. ` +
       'Kemungkinan obfuscation script diperbarui.'
@@ -154,6 +154,10 @@ export async function extractKwikStream(kwikUrl: string): Promise<KwikStreamResu
   }
 
   const { streamInfo, techniques, fingerprint } = bestResult;
+  const finalStreamUrl = streamInfo.streamUrl;
+  if (!finalStreamUrl) {
+    throw new Error('Stream URL tidak ditemukan.');
+  }
 
   // -------------------------------------------------------------------
   // Step 3: Hitung TTL cache berdasarkan token expiry
@@ -166,7 +170,7 @@ export async function extractKwikStream(kwikUrl: string): Promise<KwikStreamResu
   }
 
   const streamResult: KwikStreamResult = {
-    streamUrl: streamInfo.streamUrl,
+    streamUrl: finalStreamUrl,
     token: streamInfo.token,
     expiresAt: streamInfo.expiresAt,
     techniques,

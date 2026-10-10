@@ -46,6 +46,7 @@
   const mappings = $derived(data.mappings);
   const totalEpisodes = $derived(data.totalEpisodes || media?.episodes || 12);
 
+  // svelte-ignore state_referenced_locally
   let currentEpisode = $state(data.currentEpisode);
   let isTheaterMode = $state(false);
   let isFullscreen = $state(false);

@@ -185,8 +185,11 @@
 
 <svelte:window onkeydown={handleKeydown} />
 
+<!-- svelte-ignore a11y_no_static_element_interactions -->
 <div
   bind:this={playerContainer}
+  role="region"
+  aria-label="Video Player"
   class="relative aspect-video w-full overflow-hidden rounded-2xl bg-black shadow-2xl border border-white/10 group/player select-none"
   onmousemove={handleMouseMove}
   onmouseleave={() => isPlaying && (showControls = false)}

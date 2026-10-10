@@ -49,6 +49,7 @@ export interface AnimeMedia {
   duration?: number;
   season?: string;
   seasonYear?: number;
+  startDate?: { year?: number; month?: number; day?: number };
   averageScore?: number;
   popularity?: number;
   genres: string[];

@@ -100,6 +100,7 @@
       <!-- Header search bar -->
       <div class="relative flex items-center px-4 py-3.5 border-b border-white/10 bg-[#0d0d0d]">
         <Search class="w-5 h-5 text-amber-500 shrink-0 mr-3 stroke-[2.5]" />
+        <!-- svelte-ignore a11y_autofocus -->
         <input
           type="text"
           placeholder="Search anime by title, genre, studio..."

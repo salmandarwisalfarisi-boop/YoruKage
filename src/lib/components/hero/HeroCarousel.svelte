@@ -38,8 +38,11 @@
 <svelte:window onkeydown={handleKeydown} />
 
 <!-- Hero Carousel Wrapper -->
+<!-- svelte-ignore a11y_no_static_element_interactions -->
 <div
   class="relative w-full h-[85vh] min-h-[550px] max-h-[750px] overflow-hidden bg-[#0a0a0a]"
+  role="region"
+  aria-label="Anime Highlights Carousel"
   onmouseenter={() => (isHovered = true)}
   onmouseleave={() => (isHovered = false)}
 >

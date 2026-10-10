@@ -85,10 +85,11 @@ export const load: PageServerLoad = async ({ params, url }) => {
           const results = await searchAnime(query);
           for (const result of results) {
             // Cocokkan juga berdasarkan tahun jika tersedia
+            const animeYear = media.seasonYear ?? media.startDate?.year;
             const yearMatch =
-              !media.startDate?.year ||
+              !animeYear ||
               !result.year ||
-              Math.abs(result.year - media.startDate.year) <= 1;
+              Math.abs(result.year - animeYear) <= 1;
 
             const score = titleMatchScore(result.title, query) + (yearMatch ? 10 : 0);
             if (score > bestScore) {
